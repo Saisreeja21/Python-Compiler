@@ -1,0 +1,21 @@
+sum:
+beginfunc
+t0 = popparam
+t1 = popparam
+t2 = t0+t1
+push t2
+return
+endfunc
+main:
+beginfunc
+t3 = 1
+t4 = 2
+param t3
+param t4
+stackpointer +xxx
+call sum, 2
+stackpointer -xxx
+t5 = popparam
+x = t5
+print x
+endfunc

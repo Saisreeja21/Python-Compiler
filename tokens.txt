@@ -1,0 +1,192 @@
+Parsing Started
+100
+Equal - no indent
+Def: def
+Identifier: sum
+(
+Identifier: a
+Colon: :
+Int: int
+Comma: ,
+Iam here -2
+Identifier: b
+Colon: :
+Int: int
+)
+Iam here -2
+Arrow: ->
+Int: int
+Colon: :
+Newline: 
+114
+Indent
+Return: return
+Identifier: a
+Operator : +
+Iam here 26 
+Var_name: a
+Type: int
+Line: 1
+ID: identifier
+Offset: 8
+Size: 8
+id: identifier
+
+Identifier: b
+Newline: 
+Iam here 26 
+Var_name: b
+Type: int
+Line: 1
+ID: identifier
+Offset: 16
+Size: 8
+id: identifier
+
+Iam here ytgghgff 3
+Iam here yhjnbvfrtyuj 3
+Iam here 3
+Var_name: a
+Type: int
+Line: 1
+ID: identifier
+Offset: 8
+Size: 8
+id: identifier
+
+Var_name: b
+Type: int
+Line: 1
+ID: identifier
+Offset: 16
+Size: 8
+id: identifier
+
+Iam here 3
+Iam here 3
+Iam here 3
+Iam here 3
+Iam here 3
+Iam here 3-1
+Iam here 3
+Iam here 3-1
+okay till test
+Iam here -7
+Iam here -601
+iam here -14
+Iam here -1234
+Blank line
+100
+Dedent
+yes func
+Iam here 11123
+0x5616d63c2b80
+Def: def
+Identifier: main
+(
+)
+Arrow: ->
+None: None
+Colon: :
+Newline: 
+120
+Indent
+Identifier: x
+Colon: :
+Int: int
+Operator : =
+Identifier: sum
+(
+Integer: 1
+Comma: ,
+Iam here 26 
+Var_name: 
+Type: int
+Line: 5
+ID: 
+Offset: 8
+Size: 4
+id: 
+Value: 1
+
+okay till test
+Integer: 2
+)
+Iam here 26 
+Var_name: 
+Type: int
+Line: 5
+ID: 
+Offset: 24
+Size: 4
+id: 
+Value: 2
+
+okay till test
+Iam here 22
+Newline: 
+okay till test
+Okay till expr statement
+Iam here - 5 - 1
+Iam here - 5 - 2
+Iam here - 5 - 3
+Going out of expr statement
+Iam here -601
+iam here -14
+Iam here -1234
+112
+Equal - no indent
+Identifier: print
+(
+Identifier: x
+)
+Iam here 26 
+Var_name: x
+Type: int
+Line: 6
+ID: identifier
+Offset: 48
+Size: 8
+id: identifier
+
+okay till test
+Iam here 202
+Newline: 
+okay till test
+Iam here - 709
+Iam here -601
+iam here -14
+Iam here -123
+Blank line
+105
+Dedent
+yes func
+Iam here 123
+If: if
+__name__ : __name__
+Operator : ==
+String: "__main__"
+Colon: :
+Newline: 
+109
+Indent
+Identifier: main
+(
+)
+Iam here 21
+Newline: 
+okay till test
+Iam here - 709
+Iam here -601
+iam here -14
+Iam here -1234
+EOF
+Dedent
+Iam here 123
+ENDMARK: 
+Iam here -12334
+Exiting
+Parsing Done
+Printing Symbol Table
+21
+Printing Assembly Code
